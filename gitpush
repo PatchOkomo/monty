@@ -5,4 +5,4 @@ git add "$file"
 echo "Enter commit message"
 read message
 git commit -m "$message for $file"
-git push -u
+git push -u origin
